@@ -8,8 +8,8 @@ static u8 lastState = NORMAL;
 extern void ALARM_slave_Init ()
 {
 	DIO_Init();
+	//line idle
 	DIO_WritePin(PINC0, HIGH);
-	
 	ADC_Init(ADC_VCC, ADC_PRESCALER_8);
 	SPI_InitSlave();
 	
@@ -72,9 +72,6 @@ static void ALARM_slave_alarm ()
 		{
 			case ALARM:
 			ALARM_slave_trigger();
-			break;
-			case NORMAL:
-			DIO_WritePin (PINC0, HIGH);
 			break;
 		}
 	}

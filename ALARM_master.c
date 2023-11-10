@@ -67,16 +67,16 @@ static void Alarm_master_getTemp ()
 
 static void Alarm_master_tempInit ()
 {
-		if (1 <= tempInitFlag && tempInitFlag < 20)
-		{
-			tempInitFlag++;
-		}
-		if (tempInitFlag == 20)
-		{
-			Alarm_master_getTemp ();
-			
-			tempInitFlag = 0;
-		}
+	if (1 <= tempInitFlag && tempInitFlag < 20)
+	{
+		tempInitFlag++;
+	}
+	if (tempInitFlag == 20)
+	{
+		Alarm_master_getTemp ();
+		
+		tempInitFlag = 0;
+	}
 }
 
 static void Alarm_master_led ()
