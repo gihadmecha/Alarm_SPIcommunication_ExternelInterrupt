@@ -4,8 +4,7 @@ A measurement system that uses a temperature sensor to measure the environment t
 
 [Demo](https://youtu.be/7MyPIFNfzwU?si=CCLDTq3jqmzXImPf) | [Proteus simulation file](https://github.com/gihadmecha/measurementAlarmSystem_SPIcommunication_ExternelInterrupt/blob/main/Alarm_SPIcommunication_ExternelInterrupt.pdsprj)
 :-------------------------:|:-------------------------:
-[Demo](https://youtu.be/7MyPIFNfzwU?si=CCLDTq3jqmzXImPf) 
-[![youtube2](https://github.com/gihadmecha/measurementAlarmSystem_SPIcommunication_ExternelInterrupt/assets/19871755/0a34612b-d039-48b0-98b5-6e025860fa11)](https://youtu.be/7MyPIFNfzwU?si=CCLDTq3jqmzXImPf) | ![proteus simulation2](https://github.com/gihadmecha/measurementAlarmSystem_SPIcommunication_ExternelInterrupt/assets/19871755/a01cdfe3-0fba-40a9-81e1-37f381382e92)
+[<img src="https://github.com/gihadmecha/measurementAlarmSystem_SPIcommunication_ExternelInterrupt/blob/main/youtube2.png">](https://youtu.be/7MyPIFNfzwU?si=CCLDTq3jqmzXImPf)| [<img src="https://github.com/gihadmecha/measurementAlarmSystem_SPIcommunication_ExternelInterrupt/blob/main/proteus%20simulation2.png">](https://github.com/gihadmecha/measurementAlarmSystem_SPIcommunication_ExternelInterrupt/assets/19871755/b063ffee-906a-4b1c-8b40-5cf799047fcc)
 
 The slave controller is a measuring system that uses a temperature sensor to measure the temperature of the environment.
 
