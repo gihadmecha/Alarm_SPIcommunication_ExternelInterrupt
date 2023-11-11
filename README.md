@@ -1,12 +1,12 @@
 # A Measurement Alarm System communicates using the SPI communication protocol and an EXI external interrupt.
 
-A measurement system that uses a temperature sensor to measure the environment temperature and outputs it using SPI and external interrupt connections.
+A measurement system that uses a temperature sensor to measure the environment's temperature and outputs it using SPI and external interrupt connections
 
 [Demo](https://youtu.be/7MyPIFNfzwU?si=CCLDTq3jqmzXImPf) | [Proteus simulation file](https://github.com/gihadmecha/measurementAlarmSystem_SPIcommunication_ExternelInterrupt/blob/main/Alarm_SPIcommunication_ExternelInterrupt.pdsprj)
 :-------------------------:|:-------------------------:
 [<img src="https://github.com/gihadmecha/measurementAlarmSystem_SPIcommunication_ExternelInterrupt/blob/main/youtube2.png">](https://youtu.be/7MyPIFNfzwU?si=CCLDTq3jqmzXImPf)| [<img src="https://github.com/gihadmecha/measurementAlarmSystem_SPIcommunication_ExternelInterrupt/blob/main/proteus%20simulation2.png">](https://github.com/gihadmecha/measurementAlarmSystem_SPIcommunication_ExternelInterrupt/assets/19871755/b063ffee-906a-4b1c-8b40-5cf799047fcc)
 
-The slave controller is a measuring system that uses a temperature sensor to measure the temperature of the environment.
+The slave controller is a measurement system that uses a temperature sensor to measure the environment's temperature.
 
 When the master controller wants this, it gets the measurements from the slave controller using an SPI connection and puts them on the display.
 
