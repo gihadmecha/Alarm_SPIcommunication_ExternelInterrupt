@@ -1,4 +1,4 @@
-# A Measurement and Alarm System communicates using the SPI communication protocol and an EXI external interrupt.
+# A Measuring and Alarm System communicates using the SPI communication protocol and an EXI external interrupt.
 
 A measurement system that uses a temperature sensor to measure the environment's temperature and outputs it using SPI and external interrupt connections
 
